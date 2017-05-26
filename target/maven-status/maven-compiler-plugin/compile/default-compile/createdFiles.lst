@@ -7,3 +7,4 @@ com\service\AdminServiceImpl.class
 com\service\UserServiceInterface.class
 com\service\UserServiceImpl.class
 com\dao\UserDaoInterface.class
+com\controller\IndexController.class

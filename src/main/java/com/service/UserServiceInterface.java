@@ -12,5 +12,7 @@ public interface UserServiceInterface {
 
     void setUserDao(UserDaoInterface userDao);
 
+    User findUserByName(String name);
+
     List<User> getAllUsers();
 }

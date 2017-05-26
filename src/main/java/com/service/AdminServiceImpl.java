@@ -21,6 +21,11 @@ public class AdminServiceImpl implements UserServiceInterface {
     }
 
     @Override
+    public User findUserByName(String name) {
+        return null;
+    }
+
+    @Override
     public List<User> getAllUsers() {
         return adminDao.getUsers();
     }
